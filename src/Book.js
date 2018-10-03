@@ -34,7 +34,7 @@ class Book extends Component {
           </div>
         </div>
         <div className="book-title">{this.props.book.title}</div>
-        <div className="book-authors">{this.props.authors ? this.props.authors.join(', ') : 'None'}</div>
+        <div className="book-authors">{this.props.authors.join(', ')}</div>
       </div>
     );
   }
